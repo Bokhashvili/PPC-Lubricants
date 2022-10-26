@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    height: 2000px;
+    padding: 0 3% 0 3%;
+    background-color: rgb(28, 27, 27);
+    padding-top: 155px;
+}
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 3%;
+    width: 94%;
+    z-index: 50;
+    
+}
+.wrapper {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(229, 235, 240);
+    
+    
+}
+.logo-div {
+    height: 100%;
+   
+}
+.logo-div img {
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+}
+.title {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+
+.navigation {
+    background-color: grey;
+
+
+}
+.nav-ul {
+    height: 50px;
+    display: flex;
+    
+}
+li {
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    
+}
+/* start section style */
+/* section {
+    margin-top: 135px;
+} */
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.div-img img {
+    width: 570px;
+}
+
+
+
+
+.div-p {
+    width: 800px;
+    background-color: rgb(42, 47, 47);
+    color: white;
+}
+.title-2 h1 {
+    background-color: rgb(244, 202, 18);
+    color: black;
+    font-weight: 900;
+    padding-left: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.div-p h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 600;
+
+}
+.div-p p {
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-indent: 20px;
+}
+/* end section style */
+
+/* start main style */
+.main {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.main img {
+    width: 90px;
+    border: 2px solid;
+    border-radius:10px ;
+}
+.main h2 {
+    color: rgb(156, 222, 57);
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+/* start conteiner2 styles  */
+.conteiner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.conteiner2-child {
+    width: 23%;
+    border: 4px black solid;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+.conteiner2-child:last-child {
+    margin-right: 0;
+}
+.conteiner2 h2 {
+    background-color: rgb(244, 202, 18);
+    font-size: 22px;
+    font-style:italic;
+    font-weight: 700;
+    padding-left: 20px;
+    line-height: 35px;
+
+}
+.conteiner2 img {
+    width: 100%;
+    height: 50%;
+}
+.conteiner2 p {
+    margin-left: 10px;
+}
+button {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 140px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(244, 202, 18);
+    cursor: pointer;
+    
+}
